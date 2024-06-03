@@ -329,12 +329,9 @@ tfoot,
   @extend .link-body-emphasis;
   font-family: $headings-font-family;
   .site-subtitle {
-    @extend .fw-bold;
+    @extend .fst-italic;
+    padding-left: 0.5rem !important;
   }
-}
-
-.subtitle {
-  @extend .display-6;
 }
 
 #site-nav ul,
@@ -349,6 +346,14 @@ tfoot,
     @extend .text-decoration-none;
     @extend .link-secondary;
   }
+}
+
+#site-nav ul {
+  @extend .fs-5;
+}
+
+.subtitle {
+  @extend .display-6;
 }
 
 // Card {{{3
