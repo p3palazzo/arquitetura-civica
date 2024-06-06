@@ -815,14 +815,16 @@ label.margin-toggle:not(.sidenote-number) {
 // hero {{{3
 .hero-home {
   @include media-breakpoint-up(lg) {
-    aspect-ratio: 1.9 / 1;
     min-height: 50vh;
   }
   @media (prefers-color-scheme: dark) {
     opacity: 80%;
   }
-  &.suppress-title h1 {
-    @extend .d-none;
+  &.suppress-title {
+    aspect-ratio: 1.9 / 1;
+    h1 {
+      @extend .d-none;
+    }
   }
 }
 
@@ -834,8 +836,10 @@ label.margin-toggle:not(.sidenote-number) {
   @extend .text-end;
   @extend .opacity-50;
   @extend .text-bg-dark;
-  font-size: 75%;
-  border-top-left-radius: var(--bs-border-radius) !important;
+  @extend small;
+  @include media-breakpoint-up(md) {
+    border-top-left-radius: var(--bs-border-radius) !important;
+  }
   a {
     @extend .link-light;
     @extend .link-opacity-75;
