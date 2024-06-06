@@ -313,7 +313,8 @@ h3 {
   }
 }
 
-.row > section {
+.row > section,
+.page__content {
   font-size: 1.3rem;
   font-family: $font-family-serif;
   h2:not(first-of-type) {
@@ -467,6 +468,7 @@ q {
   @extend .p-5;
   @extend .border-bottom;
   @extend .align-items-center;
+  @extend .justify-content-center;
   @extend .text-center;
   @extend .bg-body-tertiary;
   background-size: cover;
@@ -614,10 +616,11 @@ main {
 }
 
 main > .container > .row {
-  @extend .gx-3;
+  @extend .g-3;
 }
 
-.row:not(.wide) > section:not(.wide) {
+.row:not(.wide) > section:not(.wide),
+.lead {
   @extend .col-lg-8;
   h2 {
     @extend .ms-0;
@@ -626,6 +629,15 @@ main > .container > .row {
       width: 150% !important;
     }
   }
+}
+
+.page__content {
+  @extend .col;
+  @extend .col-lg-5; // Accommodates .sidenote
+}
+
+.lead {
+  @extend .mx-auto;
 }
 
 // typography {{{3
