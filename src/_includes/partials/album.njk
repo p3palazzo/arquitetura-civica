@@ -3,7 +3,7 @@
     <img class="card-img-top" src="{{ post.data.header.teaser }}" />
     <div class="card-header">
       {% if post.data.coverage.spatial.location.country %}
-        <span aria-label="{{ post.data.coverage.spatial.location.country }}">
+        <span class="pe-2" aria-label="{{ post.data.coverage.spatial.location.country }}">
           {{ post.data.coverage.spatial.location.country | countryEmoji }}
         </span>
       {% endif %}
