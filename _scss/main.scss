@@ -698,8 +698,8 @@ h5 { // semantic emulation of .newthought
 .sidebar,
 .col.author__profile {
   @include media-breakpoint-up(lg) {
-    width: 300px;
-    max-width: 300px;
+    width: 250px;
+    max-width: 250px;
   }
   i + .label {
     @extend .ps-2;
@@ -847,6 +847,21 @@ label.margin-toggle:not(.sidenote-number) {
       @extend .link-opacity-100;
     }
   }
+}
+
+// archive {{{3
+.archive__row {
+  @extend .row;
+  @extend .row-cols-md-2;
+  @extend .row-cols-lg-3;
+  @extend .row-cols-xl-6;
+  @extend .g-3;
+  @extend .mx-5;
+  @extend .justify-content-center;
+}
+
+.col.author__profile {
+  @extend .mx-3;
 }
 
 // keywords {{{3
