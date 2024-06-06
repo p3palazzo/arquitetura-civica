@@ -1,6 +1,6 @@
 main:
   - title : "Sobre o projeto"
-    url   : "/expediente/"
+    url   : "https://arquitetura.tradicional.arq.br"
   - title : "Equipe"
     url   : "/equipe/"
   - title : >
@@ -8,3 +8,20 @@ main:
       Dados abertos e como contribuir
     url   : "https://github.com/arqtrad/arquitetura-civica"
     target: "_blank"
+
+especiais:
+  - image_path: "https://placehold.co/210x210/png"
+    title     : "Monumentalidade"
+    excerpt   : "Um resumo aqui"
+    url       : /monumentalidade/
+    btn_class : "btn-outline-primary"
+  - image_path: "https://placehold.co/210x210/png"
+    title     : "Neocolonial"
+    excerpt   : "Transposição de motivos religiosos para a arquitetura cívica neocolonial"
+    url       : /neocolonial/
+    btn_class : "btn-outline-primary"
+  - image_path: "https://placehold.co/210x210/png"
+    title     : "Projetos ideais"
+    excerpt   : "Obras cívicas não realizadas"
+    url       : /ideal/
+    btn_class : "btn-outline-primary"
