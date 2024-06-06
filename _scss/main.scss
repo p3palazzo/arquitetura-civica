@@ -407,7 +407,8 @@ h3.card-title,
 .btn {
   @extend .fst-normal;
   a {
-    @extend .link-dark;
+    @extend .link-body-emphasis;
+    @extend .text-decoration-none;
   }
 }
 
@@ -416,20 +417,17 @@ h3.card-title,
   font-family: $font-family-narrow;
 }
 
+.card-text {
+  font-family: $font-family-unb;
+  @extend .text-secondary;
+}
+
 // Marginalia {{{3
 .sidebar,
-.author__profile,
 .toc {
-  ul {
-    @extend .list-unstyled;
-    &.sidebar__nav > li {
-      @extend .py-2;
-      @extend .border-bottom;
-      > a {
-        @extend .fw-bold;
-        text-transform: uppercase;
-      }
-    }
+  ul.sidebar__nav > li > a {
+    @extend .fw-bold;
+    text-transform: uppercase;
   }
 }
 
@@ -690,6 +688,18 @@ h5 { // semantic emulation of .newthought
   clear: right;
   * {
     @extend .w-100;
+  }
+}
+
+.sidebar,
+.author__profile,
+.toc {
+  ul {
+    @extend .list-unstyled;
+    &.sidebar__nav > li {
+      @extend .py-2;
+      @extend .border-bottom;
+    }
   }
 }
 
