@@ -1,7 +1,6 @@
 {%- if not lang -%}
   {%- set lang = site.locale -%}
 {%- endif %}
-{%- block noindent -%}
 <div class="container">
   <div class="row my-3 text-center">
     {%- for t in navigation[triptych] %}
@@ -24,4 +23,3 @@
     {%- endfor %}
   </div><!--/.row-->
 </div><!--/.container-->
-{%- endblock -%}
