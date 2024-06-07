@@ -8,7 +8,7 @@ description: >-
   Documentário da arquitetura cívica publicada na bibliografia de
   referência.
 url                      : "https://arquitetura-civica.tradicional.arq.br"
-baseurl                  : "/"
+baseurl                  : 
 repository               : "arqtrad/arquitetura-civica"
 teaser                   : "/assets/media/an-teaser.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
