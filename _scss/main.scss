@@ -198,7 +198,7 @@ $legend-font-weight:   500;
 @import "bootstrap/scss/nav";
 @import "bootstrap/scss/navbar"; // Requires nav
 @import "bootstrap/scss/card";
-// @import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/breadcrumb";
 // @import "bootstrap/scss/accordion";
 @import "bootstrap/scss/pagination";
 // @import "bootstrap/scss/badge";
@@ -615,7 +615,7 @@ article {
   @extend .g-3;
 }
 
-.row:not(.wide) > section:not(.wide),
+article > section:not(.wide),
 .lead {
   @extend .col-lg-8;
   h2 {
