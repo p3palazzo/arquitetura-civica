@@ -1,5 +1,5 @@
 ---
-title : "Casa de Camâra e Cadeia"
+title : "Casa de Câmara e Cadeia"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
 excerpt: >-
