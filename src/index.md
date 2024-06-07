@@ -3,6 +3,7 @@ title: "Arquitetura cívica tradicional"
 excerpt: >-
   Documentário de arquitetura cívica publicada na bibliografia de referência
 layout: "layouts/base.njk"
+lang: "pt-BR"
 header:
   overlay_image: "/assets/media/an-overlay.jpg"
   overlay_filter: 0.7
@@ -15,12 +16,6 @@ pagination:
   alias: posts
 templateEngineOverride: njk,md
 ---
-
-```{=html}
-{% if not lang %}
-  {% set lang = site.locale %}
-{% endif %}
-```
 
 # Coleções especiais # {.wide}
 
