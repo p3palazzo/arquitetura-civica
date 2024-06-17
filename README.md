@@ -25,30 +25,27 @@ nosso disco rígido.
     ├── _js
     │   └── search.js
     ├── _pages
-    ├── _scss
-    │   └── styles.scss
+    ├── _scss # (submódulo)
     ├── assets
     │   ├── biblio
     │   ├── fonts
     │   ├── js
     │   └── media
-    ├── docs
-    │   └── obra
     ├── src
     │   ├── _data
-    │   ├── _includes
+    │   ├── _includes # (submódulo)
     │   ├── civico # <-- Editar aqui!
-    │   ├── docs
     │   ├── dwg    # <-- Editar aqui!
     │   ├── filters
     │   ├── media  # <-- Editar aqui!
     │   ├── pages
     │   ├── utils
-    │   ├── index.html
+    │   ├── 404.html
+    │   ├── index.md
     │   └── rss.njk
     ├── LICENSE
     ├── README.md
-    ├── config.js
+    ├── .eleventy.js
     ├── package-lock.json
     └── package.json
 
