@@ -33,7 +33,6 @@ coverage:
     - type: "creation"
       text:
         headline: "Construção"
-        text: "Período provável de construção do Real Gabinete Português de Leitura"
       start_date:
         year: "1880"
       end_date:

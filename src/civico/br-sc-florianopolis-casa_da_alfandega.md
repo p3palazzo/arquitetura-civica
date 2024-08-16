@@ -16,13 +16,13 @@ alternative:
   - "Instituto de Previdência do Estado de Santa Catarina"
   - "Museu de Arte de Santa Catarina"
   - "Iprev"
-contributor:
+creator:
   - name: "Martinho Domiense Pinto Braga"
     type: "personal"
-    role: "responsável pelo plano e execução da obra"
+    role: "creation"
   - name: "José Feliciano Alves"
     type: "personal"
-    role: "responsável pelo plano e execução da obra"
+    role: "creation"
 coverage:
   spatial:
     location:

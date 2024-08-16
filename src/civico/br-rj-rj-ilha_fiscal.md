@@ -28,12 +28,11 @@ coverage:
     - type: "creation"
       text:
         headline: "Construção"
-        text: "Construção da Ilha Fiscal"
       start_date:
         year: "1881"
       end_date:
         year: "1889"
-      display_date: "c. 1881-89"
+      display_date: "1881-89"
     - type: "other"
       text:
         headline: "Mudança de atribuição"

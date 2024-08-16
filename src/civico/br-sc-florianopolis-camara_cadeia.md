@@ -37,9 +37,6 @@ coverage:
     - type: "creation"
       text:
         headline: "Construção"
-      media:
-        url: https://placehold.co/600x400
-        caption: "Foto em preto-e-branco da fachada da Casa de Camara e Cadeia de Florianópolis"
       start_date:
         year: "1771"
       end_date:

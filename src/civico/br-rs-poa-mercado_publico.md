@@ -28,16 +28,10 @@ coverage:
       city   : "Porto Alegre"
       state  : BR-RS
       country: BR
-      locationHistoric:
-        - "Freguesia de São Francisco do Porto dos Casais"
-        - "Porto de Viamão"
-        - "Porto Dornelles"
-        - "Nossa Senhora Madre de Deus de Porto Alegre"
   temporal:
     - type: "creation"
       text:
         headline: "Construção"
-        text: "Construção do Mercado"
       start_date:
         year: "1864"
       end_date:

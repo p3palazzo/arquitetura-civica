@@ -33,7 +33,6 @@ coverage:
     - type: "creation"
       text:
         headline: "Construção"
-        text: "Período provável de construção da Praça do Comércio"
       start_date:
         year: "1817"
       end_date:

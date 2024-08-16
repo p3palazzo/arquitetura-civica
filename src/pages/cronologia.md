@@ -20,7 +20,7 @@ nocite: "@palazzo:2023cronologia"
 {
   "title": {
     "text": {
-      "headline": "Linha do tempo aproximada das casas"
+      "headline": "Linha do tempo aproximada das obras"
     }
   },
   "events": [
@@ -30,7 +30,7 @@ nocite: "@palazzo:2023cronologia"
         "url": "{{ post.data.header.teaser }}",
         "link": "{{ post.url }}"
       },
-    {% for event in post.data.coverage.temporal.events %}
+    {% for event in post.data.coverage.temporal %}
       {% if event.type == "creation" %}
           "start_date": {
             "year": "{{ event.start_date.year }}"

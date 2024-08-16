@@ -40,7 +40,6 @@ coverage:
     - type: "creation"
       text:
         headline: "Construção"
-        text: "Período provável de construção da Academia Imperial de Belas Artes"
       start_date:
         year: "1822"
       end_date:

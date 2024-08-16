@@ -26,8 +26,6 @@ coverage:
       city   : "Mogi das Cruzes"
       state  : BR-SP
       country: BR
-      locationHistoric:
-        - "Vila de Sant'Anna de Mogi Mirim"
   temporal:
       - type: "creation"
         text:

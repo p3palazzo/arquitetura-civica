@@ -3,8 +3,8 @@ title : "Casa de Camâra e Cadeia"
 date  : 2024-04-24
 author: Sara Guimarães de Oliveira
 excerpt: >-
-  Exemplar eclético da primeira metade do século XIX construído em taipa de
-  pilão
+  Exemplar eclético da primeira metade do século XIX construído em taipa
+  de pilão.
 alternative:
   - "Cadeia Pública de Atibaia"
   - "Cadeia Velha"
@@ -17,7 +17,7 @@ contributor:
     vocab: "Wikidata"
     refid: "Q85633951"
     href : "https://wikidata.org/wiki/Q85633951"
-    role : "restaurador"
+    role : "restoration"
 coverage:
   spatial:
     location:

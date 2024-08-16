@@ -29,7 +29,6 @@ coverage:
     - type: "creation"
       text:
         headline: "Construção"
-        text: "Período de construção da Casa de Câmara e Cadeia de Goiana"
       start_date:
         year: "1836"
       end_date:
