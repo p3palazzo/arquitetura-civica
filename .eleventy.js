@@ -1,12 +1,12 @@
 /****************
  * Filters {{{1 *
  ****************/
-// First create variables that require() any packages we need
-// const plugin = require('some-eleventy-plugin-package')
+// First create constants that require() any packages we need
 const countryEmoji = require('./src/filters/country-emoji.js');
 const { DateTime } = require('luxon');
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const EleventyFetch = require('@11ty/eleventy-fetch');
+const { execSync } = require('child_process'); // Required by pageFind
 const fs = require("fs");
 const Image = require('@11ty/eleventy-img');
 const nodePandoc = require('node-pandoc');
@@ -27,6 +27,8 @@ module.exports = function(eleventyConfig) {
   *************************/
   // Copy assets/ to _site/assets
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("src/media/*.jpg");
+  eleventyConfig.addPassthroughCopy("src/dwg");
   eleventyConfig.addPassthroughCopy({ "node_modules/leaflet/dist": "assets/leaflet" });
 	eleventyConfig.addPassthroughCopy({ "node_modules/jquery/dist": "assets/jquery/js" });
 	eleventyConfig.addPassthroughCopy({ "node_modules/@knight-lab/timelinejs/dist": "assets/timelinejs" });
@@ -63,6 +65,7 @@ module.exports = function(eleventyConfig) {
   });
 	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
   eleventyConfig.addFilter('countryEmoji', countryEmoji);
+  eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
       closingSingleTag: "slash"
@@ -86,6 +89,12 @@ module.exports = function(eleventyConfig) {
 			x => x.data.featured
 		);
 	});
+ /***********************
+  * Postprocessing {{{2 *
+  ***********************/
+  eleventyConfig.on('eleventy.after', () => {
+    execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+  })
  /***************
   * Return {{{2 *
   ***************/
