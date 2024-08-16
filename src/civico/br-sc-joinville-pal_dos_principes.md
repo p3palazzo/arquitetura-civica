@@ -11,7 +11,7 @@ alternative:
 creator:
   - name : "Frederico Bruestlein"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q10285765"
     href : "https://wikidata.org/wiki/Q10285765"
 coverage:

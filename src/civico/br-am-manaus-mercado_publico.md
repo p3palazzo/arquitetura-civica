@@ -13,7 +13,7 @@ alternative:
 creator:
   - name : "Gustave Eiffel"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q20882"
     href : "https://wikidata.org/wiki/Q20882"
 coverage:

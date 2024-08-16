@@ -15,7 +15,7 @@ contributor:
     role : "Engenheiro responsável"
   - name : "Louis Léger Vauthier"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q3262567"
     href : "https://wikidata.org/wiki/Q3262567"
     rol e: "Coordenador da obra"

@@ -13,7 +13,7 @@ alternative:
 creator:
   - name : "Dionísio Evangelista de Castro Cerqueira"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q10266663"
     href : "https://wikidata.org/wiki/Q10266663"
 coverage:

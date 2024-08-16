@@ -17,7 +17,7 @@ alternative:
 creator:
   - name : "Auguste Henri Victor Grandjean de Montigny"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q2871225"
     href : "https://wikidata.org/wiki/Q2871225"
 coverage:

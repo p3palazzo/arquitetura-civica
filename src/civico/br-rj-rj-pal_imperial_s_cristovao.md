@@ -20,7 +20,7 @@ contributor:
   - name : "Pedro José Pézerat"
     type : "personal"
     role : "Engenheiro"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q10347532"
     href : "https://wikidata.org/wiki/Q10347532"
 coverage:

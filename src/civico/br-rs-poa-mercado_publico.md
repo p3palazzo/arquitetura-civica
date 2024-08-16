@@ -11,7 +11,7 @@ alternative:
 creator:
   - name : "Frederico Heydtmann"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q10285788"
     href : "https://wikidata.org/wiki/Q10285788"
 coverage:

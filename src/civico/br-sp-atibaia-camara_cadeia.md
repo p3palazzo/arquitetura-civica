@@ -14,7 +14,7 @@ categories:
 contributor:
   - name : "Luis Saia"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q85633951"
     href : "https://wikidata.org/wiki/Q85633951"
     role : "restaurador"

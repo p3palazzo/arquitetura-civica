@@ -8,7 +8,7 @@ excerpt: >-
 creator:
   - name: "Louis Léger Vauthier"
     type: "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q3262567"
     href : "https://wikidata.org/wiki/Q3262567"
 coverage:

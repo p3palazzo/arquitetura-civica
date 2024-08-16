@@ -17,7 +17,7 @@ alternative:
 creator:
   - name : "Francisco Joaquim Béthencourt da Silva"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q10284839"
     href : "https://wikidata.org/wiki/Q10284839"
 coverage:

@@ -16,7 +16,7 @@ alternative:
 creator:
   - name : "José da Silva Pais"
     type : "personal"
-     vocab: "Wikidata"
+    vocab: "Wikidata"
     refid: "Q28723"
     href : "https://wikidata.org/wiki/Q28723"
 coverage:
