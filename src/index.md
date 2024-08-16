@@ -1,9 +1,9 @@
 ---
 title: "Arquitetura cívica tradicional"
 excerpt: >-
-  Documentário de arquitetura cívica publicada na bibliografia de referência
+  Documentário de arquitetura cívica publicada na bibliografia de referência.
 layout: "layouts/base.njk"
-lang: "pt-BR"
+locale: "pt-BR"
 header:
   overlay_image: "/assets/media/an-overlay.jpg"
   overlay_filter: 0.7
@@ -23,7 +23,7 @@ templateEngineOverride: njk,md
 {% include "partials/triptych.njk" %}
 ```
 
-# Inclusões recentes # {.wide .mt-5}
+# {{ schemata.ui_text[locale].recent_posts }} # {.mb-4 .wide}
 
 ```{=html}
 <div class="row row-cols-md-2 row-cols-xl-3 g-3 mx-5">
@@ -31,7 +31,7 @@ templateEngineOverride: njk,md
   {% include "partials/album.njk" %}
 {% endfor %}
   <a type="button" href="/civico/" class="mx-auto my-5 btn btn-outline-primary btn-lg">
-    {{ ui_text[lang].load_all }}
+    {{ schemata.ui_text[locale].load_all }}
   </a>
 </div>
 ```
