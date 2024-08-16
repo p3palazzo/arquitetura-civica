@@ -19,32 +19,28 @@ coverage:
           56850-000
       city   : "Flores"
       state  : BR-PE
-      country: "BR"
+      country: BR
       locationHistoric:
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Inauguração"
-          text: "Período entre a inauguração provisória e a inauguração efetiva"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1881"
-        end_date:
-          year: "1882"
-        display_date: "c. 1881-82"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1930"
+    - type: "creation"
+      text:
+        headline: "Inauguração"
+        text: "Período entre a inauguração provisória e a inauguração efetiva"
+      start_date:
+        year: "1881"
+      end_date:
+        year: "1882"
+      display_date: "1881-82"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1930"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 log:
   - date: 2024-04-11
     message: "Preenchimento da ficha. Falta adicionar a Iconografia, os DWGs e Docs"

@@ -20,8 +20,9 @@ contributor:
   - name : "Pedro José Pézerat"
     type : "personal"
     role : "Engenheiro"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q10347532"
+    href : "https://wikidata.org/wiki/Q10347532"
 coverage:
   spatial:
     location:
@@ -35,27 +36,22 @@ coverage:
           20940-040
       city   : "Rio de Janeiro"
       state  : BR-RJ
-      country: "BR"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período de reforma do Palácio, com caracterização neoclássica"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1822"
-        end_date:
-          year: "1826"
-        display_date: "c. 1822-26"
+    - type: "restoration"
+      text:
+        headline: "Primeira campanha de alterações"
+        text: "Período de reforma do Palácio, com caracterização neoclássica"
+      start_date:
+        year: "1822"
+      end_date:
+        year: "1826"
+      display_date: "c. 1822-26"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "Inscr. n.º 23, de 11/05/1938"

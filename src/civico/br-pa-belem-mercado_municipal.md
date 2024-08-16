@@ -25,31 +25,21 @@ coverage:
           66013-030
       city   : "Belém"
       state  : BR-PA
-      country: "BR"
-      locationHistoric:
-        - "Santa Maria do Grão Pará" 
-        - "Santa Maria de Belém do Grão Pará"
-        - "Belém do Pará"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Mercado"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1860"
-        end_date:
-          year: "1867"
-        display_date: "c. 1880-83"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1860"
+      end_date:
+        year: "1867"
+      display_date: "1880-83"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "Livro do Tombo Arqueológico, Etnográfico e Paisagístico: Inscr. n.º 69, de 09/11/1977. Livro do Tombo Histórico: Inscr. n.º 460, de 09/11/1977. Livro do Tombo Belas Artes: Inscr. n.º 525, de 09/11/1977"

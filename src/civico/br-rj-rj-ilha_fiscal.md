@@ -21,33 +21,29 @@ coverage:
           text: "Baía de Guanabara"
       city   : "Rio de Janeiro"
       state  : BR-RJ
-      country: "BR"
+      country: BR
       locationHistoric:
         - "São Sebastião do Rio de Janeiro"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Ilha Fiscal"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1881"
-        end_date:
-          year: "1889"
-        display_date: "c. 1881-89"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1998"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Construção da Ilha Fiscal"
+      start_date:
+        year: "1881"
+      end_date:
+        year: "1889"
+      display_date: "c. 1881-89"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1998"
   stylePeriod:
     - text : "Neogótico"
       vocab: "Wikidata"
       refid: "Q186363"
+      href : "https://wikidata.org/wiki/Q186363"
 identifier:
   - source: "Inepac–RJ"
     refid : "E-18/001.177/90"

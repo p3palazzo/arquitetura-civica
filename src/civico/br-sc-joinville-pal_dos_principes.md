@@ -11,8 +11,9 @@ alternative:
 creator:
   - name : "Frederico Bruestlein"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q10285765"
+    href : "https://wikidata.org/wiki/Q10285765"
 coverage:
   spatial:
     location:
@@ -26,31 +27,25 @@ coverage:
           89201-080
       city   : "Joinville"
       state  : BR-SC
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Colônia Dona Francisca"
         - "Vila de São Francisco do Sul"
         - "Cidade dos príncipes"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do casarão"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1867"
-        end_date:
-          year: "1870"
-        display_date: "c. 1867-70"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1867"
+      end_date:
+        year: "1870"
+      display_date: "1867-70"
   stylePeriod:
-    - text  : "Art nouveau"
-      vocab : "Wikidata"
-      refid : "Q34636"
+    - text : "Art nouveau"
+      vocab: "Wikidata"
+      refid: "Q34636"
+      href : "https://wikidata.org/wiki/Q34636"
 identifier:
   - source: "Iphan"
     refid : "Livro do Tombo Histórico: Inscr. n.º 149, de 04/12/1939. Livro do Tombo Belas Artes: Inscr. n.º 290, de 04/12/1939"

@@ -25,32 +25,26 @@ coverage:
           14300-000
       city   : "Batatais"
       state  : BR-SP
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Senhor Bom Jesus"
         - "Arraial Velho"
         - "Sertões de Batatais"
         - "Senhor Bom Jesus da Cana Verde"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Fórum e Cadeia de Batatais"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: #
-        start_date:
-          year: "1914"
-        end_date:
-          year: "1917"
-        display_date: "c. 1914-17"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1951"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1914"
+      end_date:
+        year: "1917"
+      display_date: "1914-17"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1951"
 identifier:
   - source: "Iphan"
     refid : 

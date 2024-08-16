@@ -17,8 +17,9 @@ alternative:
 creator:
   - name : "Francisco Joaquim Béthencourt da Silva"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q10284839"
+    href : "https://wikidata.org/wiki/Q10284839"
 coverage:
   spatial:
     location:
@@ -32,31 +33,27 @@ coverage:
           20080-001
       city   : "Rio de Janeiro"
       state  : BR-RJ
-      country: "BR"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Seminário de São Joaquim"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco da Igreja São Joaquim e do Externato de Pedro II"
-        start_date:
-          year: "1758"
-        end_date:
-          year: "1766"
-        display_date: "c. 1837-Hoje"
-      - text:
-          headline: "Tombamento"
-        start_date:
-          year: "1983"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Construção do Seminário de São Joaquim"
+      start_date:
+        year: "1758"
+      end_date:
+        year: "1766"
+      display_date: "1758–66"
+    - type: "other"
+      text:
+        headline: "Tombamento"
+      start_date:
+        year: "1983"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "Inscr. n.º 489, de 19/05/1983"

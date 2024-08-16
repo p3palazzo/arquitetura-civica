@@ -17,8 +17,9 @@ alternative:
 creator:
   - name : "Auguste Henri Victor Grandjean de Montigny"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q2871225"
+    href : "https://wikidata.org/wiki/Q2871225"
 coverage:
   spatial:
     location:
@@ -32,33 +33,29 @@ coverage:
           20211-350
       city   : "Rio de Janeiro"
       state  : BR-RJ
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Travessa das Belas Artes"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Academia Imperial de Belas Artes"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco da Academia Imperial de Belas Artes durante o período de reforma"
-        start_date:
-          year: "1822"
-        end_date:
-          year: "1826"
-        display_date: "c. 1826-1931"
-      - text:
-          headline: "Demolida"
-        start_date:
-          year: "2009"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Período provável de construção da Academia Imperial de Belas Artes"
+      start_date:
+        year: "1822"
+      end_date:
+        year: "1826"
+      display_date: "1826-1826"
+    - type: "destruction"
+      text:
+        headline: "Demolida"
+      start_date:
+        year: "1931"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "n.º inscr.: 002; Vol. 1; F. 002; Data: 30/05/1938"

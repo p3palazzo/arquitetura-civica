@@ -12,8 +12,9 @@ alternative:
 creator:
   - name: "Louis Léger Vauthier"
     type: "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q3262567"
+    href : "https://wikidata.org/wiki/Q3262567"
 coverage:
   spatial:
     location:
@@ -28,33 +29,27 @@ coverage:
           55170-000
       city   : "Flores"
       state  : BR-PE
-      country: "BR"
+      country: BR
       locationHistoric:
       - "Vila de Cimbres"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de consturção da Casa de Câmara e Cadeia"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1837"
-        end_date:
-          year: "1847"
-        display_date: "c. 1837-47"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1990"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1837"
+      end_date:
+        year: "1847"
+      display_date: "1837-47"
+    - text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1990"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "em processo de tombamento Federal n.º 1224"

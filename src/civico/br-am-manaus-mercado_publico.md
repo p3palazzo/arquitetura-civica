@@ -13,8 +13,9 @@ alternative:
 creator:
   - name : "Gustave Eiffel"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q20882"
+    href : "https://wikidata.org/wiki/Q20882"
 coverage:
   spatial:
     location:
@@ -28,31 +29,25 @@ coverage:
           69009-365
       city   : "Manaus"
       state  : BR-AM
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Nossa Senhora da Conceição da Barra do Rio Negro"
         - "Vila da Barra"
         - "Cidade da Barra do Rio Negro"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Mercado"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1880"
-        end_date:
-          year: "1883"
-        display_date: "c. 1880-83"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1880"
+      end_date:
+        year: "1883"
+      display_date: "1880-83"
   stylePeriod:
-    - text  : "Art nouveau"
-      vocab : "Wikidata"
-      refid : "Q34636"
+    - text : "Art nouveau"
+      vocab: "Wikidata"
+      refid: "Q34636"
+      href : "https://wikidata.org/wiki/Q34636"
 identifier:
   - source: "Iphan"
     refid : "Processo de Tombamento n.º 1179-T-1985"

@@ -31,31 +31,27 @@ coverage:
           40015-170
       city   : "Salvador"
       state  : BR-BA
-      country: "BR"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Construção da Terceira Alfândega de Salvador"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco da Alfândega de Salvador"
-        start_date:
-          year: "1860"
-        end_date:
-          year: "1861"
-        display_date: "c. 1861-1984"
-      - text:
-          headline: "Incêndio"
-        start_date:
-          year: "1966"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Construção da Terceira Alfândega de Salvador"
+      start_date:
+        year: "1860"
+      end_date:
+        year: "1861"
+      display_date: "1861-1984"
+    - type: "destruction"
+      text:
+        headline: "Incêndio"
+      start_date:
+        year: "1966"
   stylePeriod:
-    - text  : "Neoclassicismo no Brasil"
-      vocab : "Wikidata"
-      refid : "Q10336204"
+    - text : "Neoclassicismo no Brasil"
+      vocab: "Wikidata"
+      refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "Inscr. n.º 388, de 25/10/1966"

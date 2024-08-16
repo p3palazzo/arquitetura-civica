@@ -14,8 +14,9 @@ categories:
 contributor:
   - name : "Luis Saia"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q85633951"
+    href : "https://wikidata.org/wiki/Q85633951"
     role : "restaurador"
 coverage:
   spatial:
@@ -30,30 +31,23 @@ coverage:
           12940-810
       city   : "Atibaia"
       state  : BR-SP
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Cidade das Flores"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Casa de Camara e Cadeia de Atibaia"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: #
-        start_date:
-          year: "1834"
-        end_date:
-          year: "1836"
-        display_date: "c. 1834-36"
-      - type: "restoration"
-        text:
-          headline: "Descaracterização"
-        start_date:
-          year: "1958"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1834"
+      end_date:
+        year: "1836"
+      display_date: "1834-36"
+    - type: "restoration"
+      text:
+        headline: "Descaracterização"
+      start_date:
+        year: "1958"
 identifier:
   - source: "Iphan"
     refid : "n.º inscr. 312, vol. 1, f. 052, 23/08/1955"

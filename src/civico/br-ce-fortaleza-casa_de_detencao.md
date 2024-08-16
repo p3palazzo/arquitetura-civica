@@ -31,34 +31,30 @@ coverage:
           60025-000
       city   : "Fortaleza"
       state  : BR-CE
-      country: "BR"
+      country: BR
       locationHistoric:
         - "São José do Ribamar do Aquiraz"
         - "Fortaleza de Nossa Senhora da Assunção"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Casa de Detenção"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1850"
-        end_date:
-          year: "1866"
-        display_date: "c. 1850-66"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1970"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Período de construção da Casa de Detenção"
+      start_date:
+        year: "1850"
+      end_date:
+        year: "1866"
+      display_date: "1850-66"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1970"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Conselho Estadual de Preservação do Patrimônio Cultural do Estado do Ceará"
     refid : "Inscr. n.º 002"

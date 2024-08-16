@@ -12,8 +12,9 @@ alternative:
 creator:
   - name : "Auguste Henri Victor Grandjean de Montigny"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q2871225"
+    href : "https://wikidata.org/wiki/Q2871225"
 coverage:
   spatial:
     location:
@@ -27,31 +28,27 @@ coverage:
           20010-060
       city   : "Rio de Janeiro"
       state  : BR-RJ
-      country: "BR"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Praça do Comércio"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1817"
-        end_date:
-          year: "1820"
-        display_date: "c. 1817-20"
-      - text:
-          headline: "Restauração e mudança de atribuição"
-        start_date:
-          year: "1990"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Período provável de construção da Praça do Comércio"
+      start_date:
+        year: "1817"
+      end_date:
+        year: "1820"
+      display_date: "1817-20"
+    - type: "restoration"
+      text:
+        headline: "Restauração e mudança de atribuição"
+      start_date:
+        year: "1990"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "Inscr. n.º 36, de 24/05/1938"

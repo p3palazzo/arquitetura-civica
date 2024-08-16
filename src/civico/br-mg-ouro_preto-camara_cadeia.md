@@ -23,34 +23,30 @@ coverage:
           35400-000
       city   : "Ouro Preto"
       state  : BR-MG
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Vila Rica"
         - "Imperial Cidade de Ouro Preto"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Casa de Câmara e Cadeia de Ouro Preto"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: #
-        start_date:
-          year: "1785"
-        end_date:
-          year: "1855"
-        display_date: "c. 1785-1855"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1938"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Período de construção da Casa de Câmara e Cadeia de Ouro Preto"
+      start_date:
+        year: "1785"
+      end_date:
+        year: "1855"
+      display_date: "1785-1855"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1938"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : " Inscr. n.º 305, de 29/11/1954"

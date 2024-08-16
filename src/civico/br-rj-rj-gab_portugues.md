@@ -28,31 +28,27 @@ coverage:
           20051-020
       city   : "Rio de Janeiro"
       state  : BR-RJ
-      country: "BR"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Real Gabinete Português de Leitura"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco da fachada do Real Gabinete Português de Leitura"
-        start_date:
-          year: "1880"
-        end_date:
-          year: "1887"
-        display_date: "c. 1880-87"
-      - text:
-          headline: "Tombamento"
-        start_date:
-          year: "1970"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Período provável de construção do Real Gabinete Português de Leitura"
+      start_date:
+        year: "1880"
+      end_date:
+        year: "1887"
+      display_date: "1880-87"
+    - type: "other"
+      text:
+        headline: "Tombamento"
+      start_date:
+        year: "1970"
   stylePeriod:
     - text : "Estilo neomanuelino"
       vocab: "Wikidata"
       refid: "Q2056895"
+      href : "https://wikidata.org/wiki/Q2056895"
 identifier:
   - source: "Instituto Estadual do Patrimônio Cultural"
     refid : 'E-03/300.399/70 – Dec "E" 20'

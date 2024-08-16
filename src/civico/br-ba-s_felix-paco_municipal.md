@@ -21,29 +21,21 @@ coverage:
           44360-000
       city   : "São Félix"
       state  : BR-BA
-      country: "BR"
+      country: BR
       locationHistoric:
         - "São Félix do Paraguaçu"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Palácio"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "-"
-        end_date:
-          year: "1890"
-        display_date: "c. 1890"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      end_date:
+        year: "1890"
+      display_date: "c. 1890"
   stylePeriod:
-    - text  : "Ecletismo no Brasil"
-      vocab : "Wikidata"
-      refid : "Q106772149"
+    - text : "Ecletismo no Brasil"
+      vocab: "Wikidata"
+      refid: "Q106772149"
+      href : "https://wikidata.org/wiki/Q106772149"
 identifier:
   - source: "IPAC–BA"
     refid : "n.º 9.991/06, de 26/04/2006"

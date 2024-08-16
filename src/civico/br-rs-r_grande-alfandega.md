@@ -28,31 +28,30 @@ coverage:
           96200-030
       city   : "Rio Grande"
       state  : BR-RS
-      country: "BR"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Alfândega de Rio Grande"
-        media:
-          url: https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco da Alfandega de Rio Grande, sem informação de data"
-        start_date:
-          year: "1875"
-        end_date:
-          year: "1879"
-        display_date: "c. 1826-1969"
-      - text:
-          headline: "Mudança de orgão atribuído"
-        start_date:
-          year: "1967"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Período provável de construção da Alfândega de Rio Grande"
+      media:
+        url: https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg
+        caption: "Foto em preto-e-branco da Alfandega de Rio Grande, sem informação de data"
+      start_date:
+        year: "1875"
+      end_date:
+        year: "1879"
+      display_date: "1875–79"
+    - type: "other"
+      text:
+        headline: "Mudança de orgão atribuído"
+      start_date:
+        year: "1967"
   stylePeriod:
-    - text  : "Ecletismo no Brasil"
-      vocab : "Wikidata"
-      refid : "Q106772149"
+    - text : "Ecletismo no Brasil"
+      vocab: "Wikidata"
+      refid: "Q106772149"
+      href : "https://wikidata.org/wiki/Q106772149"
 identifier:
   - source: "Iphan"
     refid : "Inscr. n.º 404, de 04/09/1967"

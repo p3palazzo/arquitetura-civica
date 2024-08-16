@@ -25,26 +25,20 @@ coverage:
           08710-025
       city   : "Mogi das Cruzes"
       state  : BR-SP
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Vila de Sant'Anna de Mogi Mirim"
   temporal:
-    events:
       - type: "creation"
         text:
           headline: "Construção"
-          text: "Período provável de construção da Casa de Camâra e Cadeia de Mogi das Cruzes"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: #
         start_date:
           year: "1830"
         end_date:
           year: "1860"
-        display_date: "c. 1830-60"
-      - text:
+        display_date: "1830-60"
+      - type: "other"
+        text:
           headline: "Mudança de atribuição"
         start_date:
           year: "1929"
@@ -52,6 +46,7 @@ coverage:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Condephaat"
     refid : "Inscrição n.º 460, p. 139"

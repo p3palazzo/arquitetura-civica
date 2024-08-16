@@ -23,7 +23,7 @@ coverage:
           63430-000
       city   : "Icó"
       state  : BR-CE
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Ribeira dos Icós"
         - "Arraial Velho"
@@ -33,29 +33,25 @@ coverage:
         - "Icó dos Fonsecas"
         - "Povoação do Salgado"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Casa de Camâra e Cadeia de Icó"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: #
-        start_date:
-          year: "século XVIII"
-        end_date:
-          year: "século XIX"
-        display_date: "c. XVIII-XIX"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1862"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Período provável de construção da Casa de Camâra e Cadeia de Icó"
+      start_date:
+        year: "século XVIII"
+      end_date:
+        year: "século XIX"
+      display_date: "c. XVIII-XIX"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1862"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "Inscr. n.º 456, de 17/11/1975"

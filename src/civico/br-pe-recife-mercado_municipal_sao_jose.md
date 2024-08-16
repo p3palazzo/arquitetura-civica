@@ -15,8 +15,9 @@ contributor:
     role : "Engenheiro responsável"
   - name : "Louis Léger Vauthier"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q3262567"
+    href : "https://wikidata.org/wiki/Q3262567"
     rol e: "Coordenador da obra"
 coverage:
   spatial:
@@ -31,35 +32,28 @@ coverage:
           50020-280
       city   : "Recife"
       state  : BR-PE
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Largo da Ribeira do Peixe"
-        - "Mauricéia"
-        - "Santo Antônio do Recife"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Mercado de São José"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1872"
-        end_date:
-          year: "1875"
-        display_date: "c. 1872-75"
-      - text:
-          headline: "Incêndio e reconstrução"
-        start_date:
-          year: "1989"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1872"
+      end_date:
+        year: "1875"
+      display_date: "1872-75"
+    - type: "restoration"
+      text:
+        headline: "Incêndio e reconstrução"
+      start_date:
+        year: "1989"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN)"
     refid : "nos livros das Belas Artes v. 1, sob o n.º 509, em 17 de dezembro de 1973; e no livro Histórico v. 1, n.º 445, em 17 de dezembro de 1973 (Processo 883-T/73)."

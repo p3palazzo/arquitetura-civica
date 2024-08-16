@@ -36,34 +36,26 @@ coverage:
           88010-400
       city   : "Florianópolis"
       state  : BR-SC
-      country: "BR"
-      locationHistoric:
-        - "Porto dos Patos"
-        - "Nossa Senhora do Desterro"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período de construção da Casa da Alfândega"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco de da Casa da Alfândega logo que inaugurada"
-        start_date:
-          year: "1874"
-        end_date:
-          year: "1876"
-        display_date: "c. 1874–76"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1988"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1874"
+      end_date:
+        year: "1876"
+      display_date: "1874–76"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1988"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Iphan"
     refid : "Inscr. n.º 454, de 10/03/1975"

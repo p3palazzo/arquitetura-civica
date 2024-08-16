@@ -11,8 +11,9 @@ alternative:
 creator:
   - name : "Frederico Heydtmann"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q10285788"
+    href : "https://wikidata.org/wiki/Q10285788"
 coverage:
   spatial:
     location:
@@ -26,32 +27,27 @@ coverage:
           90020-050
       city   : "Porto Alegre"
       state  : BR-RS
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Freguesia de São Francisco do Porto dos Casais"
         - "Porto de Viamão"
         - "Porto Dornelles"
         - "Nossa Senhora Madre de Deus de Porto Alegre"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Mercado"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1864"
-        end_date:
-          year: "1869"
-        display_date: "c. 1864-69"
+    - type: "creation"
+      text:
+        headline: "Construção"
+        text: "Construção do Mercado"
+      start_date:
+        year: "1864"
+      end_date:
+        year: "1869"
+      display_date: "1864-69"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Conselho do Patrimônio Histórico e Cultural"
     refid : "n° 2, p. 2, de 21/12/1979"

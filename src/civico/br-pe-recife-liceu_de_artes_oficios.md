@@ -11,8 +11,9 @@ alternative:
 creator:
   - name : "Francisco Joaquim Béthencourt da Silva"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q10284839"
+    href : "https://wikidata.org/wiki/Q10284839"
 coverage:
   spatial:
     location:
@@ -26,30 +27,21 @@ coverage:
           50010-040
       city   : "Recife"
       state  : BR-PE
-      country: "BR"
-      locationHistoric:
-        - "Mauricéia"
-        - "Santo Antônio do Recife"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Liceu"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1871"
-        end_date:
-          year: "1880"
-        display_date: "c. 1871-80"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1871"
+      end_date:
+        year: "1880"
+      display_date: "1871-80"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "FUNDARPE – Fundação do Patrimônio Histórico e Artístico de Pernambuco"
     refid : "Processo de Tombamento n.º 2.702/1991, Decreto Estadual de Homologação n.º 17.348, de 28/02/1994."

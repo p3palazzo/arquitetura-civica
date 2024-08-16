@@ -13,8 +13,9 @@ alternative:
 creator:
   - name : "Dionísio Evangelista de Castro Cerqueira"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q10266663"
+    href : "https://wikidata.org/wiki/Q10266663"
 coverage:
   spatial:
     location:
@@ -28,26 +29,25 @@ coverage:
           69010-220
       city   : "Manaus"
       state  : BR-AM
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Nossa Senhora da Conceição da Barra do Rio Negro"
         - "Vila da Barra"
         - "Cidade da Barra do Rio Negro"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção do Liceu"
-        start_date:
-          year: "1881"
-        end_date:
-          year: "1886"
-        display_date: "c. 1881-86"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1881"
+      end_date:
+        year: "1886"
+      display_date: "1881-86"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Conselho Estadual de Defesa do Patrimônio Histórico e Artístico do Amazonas"
     refid : "Decreto n.º 5.218, de 03/10/1980"

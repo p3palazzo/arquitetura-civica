@@ -16,8 +16,9 @@ alternative:
 creator:
   - name : "José da Silva Pais"
     type : "personal"
-    vocab: "Wikidata"
+     vocab: "Wikidata"
     refid: "Q28723"
+    href : "https://wikidata.org/wiki/Q28723"
 coverage:
   spatial:
     location:
@@ -31,31 +32,29 @@ coverage:
           88010-560
       city   : "Florianópolis"
       state  : BR-SC
-      country: "BR"
+      country: BR
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Casa de Camara e Cadeia de Florianópolis"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco da fachada da Casa de Camara e Cadeia de Florianópolis"
-        start_date:
-          year: "1771"
-        end_date:
-          year: "1780"
-        display_date: "c. 1771-80"
-      - text:
-          headline: "Transferência do legislativo para outra casa"
-        start_date:
-          year: "1879"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      media:
+        url: https://placehold.co/600x400
+        caption: "Foto em preto-e-branco da fachada da Casa de Camara e Cadeia de Florianópolis"
+      start_date:
+        year: "1771"
+      end_date:
+        year: "1780"
+      display_date: "1771-80"
+    - type: "other"
+      text:
+        headline: "Transferência do legislativo para outra casa"
+      start_date:
+        year: "1879"
   stylePeriod:
     - text : "Neoclassicismo no Brasil"
       vocab: "Wikidata"
       refid: "Q10336204"
+      href : "https://wikidata.org/wiki/Q10336204"
 identifier:
   - source: "Cidade de Florianópolis"
     refid : "tombada individualmente pelo Decreto Municipal n.º 042/84"

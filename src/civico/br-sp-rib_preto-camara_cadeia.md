@@ -26,33 +26,28 @@ coverage:
           14010-130
       city   : "Ribeirão Preto"
       state  : BR-SP
-      country: "BR"
+      country: BR
       locationHistoric:
         - "Vila de Entre Rios"
   temporal:
-    events:
-      - type: "creation"
-        text:
-          headline: "Construção"
-          text: "Período provável de construção da Casa de Camara e Cadeia de Ribeirão Preto"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
-        start_date:
-          year: "1882"
-        end_date:
-          year: "1889"
-        display_date: "c. 1882-89"
-      - text:
-          headline: "Mudança de atribuição"
-        start_date:
-          year: "1908"
+    - type: "creation"
+      text:
+        headline: "Construção"
+      start_date:
+        year: "1882"
+      end_date:
+        year: "1889"
+      display_date: "1882-89"
+    - type: "other"
+      text:
+        headline: "Mudança de atribuição"
+      start_date:
+        year: "1908"
   stylePeriod:
-    - text  : "Ecletismo no Brasil"
-      vocab : "Wikidata"
-      refid : "Q106772149"
+    - text : "Ecletismo no Brasil"
+      vocab: "Wikidata"
+      refid: "Q106772149"
+      href : "https://wikidata.org/wiki/Q106772149"
 log:
   - date: 2024-04-30
     message: "Inclui dados pertinentes. Falta adicionar midia, dwg, docs e verificar quanto ao tombamento."
