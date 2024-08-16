@@ -4,3 +4,6 @@
 [submodule "src/_includes"]
 	path = src/_includes
 	url = git@github.com:arqtrad/eleventy-includes.git
+[submodule "src/_data/schemata"]
+	path = src/_data/schemata
+	url = git@github.com:arqtrad/schemata.git
