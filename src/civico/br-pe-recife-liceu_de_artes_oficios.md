@@ -25,7 +25,7 @@ coverage:
           Praça da República, n.º 281 – Santo Antônio<br />
           50010-040
       city   : "Recife"
-      state  : "Pernambuco"
+      state  : BR-PE
       country: "BR"
       locationHistoric:
         - "Mauricéia"

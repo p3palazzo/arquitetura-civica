@@ -27,7 +27,7 @@ coverage:
           Rua Luís de Camões, 30<br />
           20051-020
       city   : "Rio de Janeiro"
-      state  : "Rio de Janeiro"
+      state  : BR-RJ
       country: "BR"
   temporal:
     events:

@@ -29,7 +29,7 @@ coverage:
           Praça Bento Paes, s/n<br />
           12940-810
       city   : "Atibaia"
-      state  : "São Paulo"
+      state  : BR-SP
       country: "BR"
       locationHistoric:
         - "Cidade das Flores"

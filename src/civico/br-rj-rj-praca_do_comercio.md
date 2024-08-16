@@ -26,7 +26,7 @@ coverage:
           R. Visconde de Itaboraí, n.º 78, Centro – Rio de Janeiro – RJ<br />
           20010-060
       city   : "Rio de Janeiro"
-      state  : "Rio de Janeiro"
+      state  : BR-RJ
       country: "BR"
   temporal:
     events:

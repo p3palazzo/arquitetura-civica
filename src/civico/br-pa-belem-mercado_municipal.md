@@ -24,7 +24,7 @@ coverage:
           Av. Portugal - Campina<br />
           66013-030
       city   : "Belém"
-      state  : "Pará"
+      state  : BR-PA
       country: "BR"
       locationHistoric:
         - "Santa Maria do Grão Pará" 

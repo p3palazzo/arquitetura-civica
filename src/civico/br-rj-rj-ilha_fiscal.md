@@ -20,7 +20,7 @@ coverage:
         - type: "corporate"
           text: "Baía de Guanabara"
       city   : "Rio de Janeiro"
-      state  : "Rio de Janeiro"
+      state  : BR-RJ
       country: "BR"
       locationHistoric:
         - "São Sebastião do Rio de Janeiro"

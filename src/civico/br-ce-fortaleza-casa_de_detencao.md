@@ -30,7 +30,7 @@ coverage:
           R. Sen. Pompeu, 350<br />
           60025-000
       city   : "Fortaleza"
-      state  : "Ceará"
+      state  : BR-CE
       country: "BR"
       locationHistoric:
         - "São José do Ribamar do Aquiraz"

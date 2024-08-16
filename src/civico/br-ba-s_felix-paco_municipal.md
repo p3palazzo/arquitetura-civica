@@ -20,7 +20,7 @@ coverage:
           Prefeitura municipal de São Félix - R. Dannemann, 1937<br />
           44360-000
       city   : "São Félix"
-      state  : "Bahia"
+      state  : BR-BA
       country: "BR"
       locationHistoric:
         - "São Félix do Paraguaçu"

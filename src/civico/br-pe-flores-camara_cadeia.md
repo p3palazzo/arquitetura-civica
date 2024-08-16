@@ -18,7 +18,7 @@ coverage:
           R. Padre Dr. Santana Filho<br />
           56850-000
       city   : "Flores"
-      state  : "Pernambuco"
+      state  : BR-PE
       country: "BR"
       locationHistoric:
   temporal:

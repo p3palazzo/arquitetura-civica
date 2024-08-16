@@ -27,7 +27,7 @@ coverage:
           Nossa Sra. do Bom Conselho<br />
           55170-000
       city   : "Flores"
-      state  : "Pernambuco"
+      state  : BR-PE
       country: "BR"
       locationHistoric:
       - "Vila de Cimbres"

@@ -22,7 +22,7 @@ coverage:
           Av. Marechal Deodoro da Fonseca, 193<br />
           55900-000
       city   : "Goiana"
-      state  : "Pernambuco"
+      state  : BR-PE
       country: "BR"
   temporal:
     events:

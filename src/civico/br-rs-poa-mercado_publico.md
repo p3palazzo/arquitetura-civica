@@ -25,7 +25,7 @@ coverage:
           Largo Glênio Peres, Praça Parobé, Av. Júlio de Castilhos e Av. Borges de Medeiros<br />
           90020-050
       city   : "Porto Alegre"
-      state  : "Rio Grande do Sul"
+      state  : BR-RS
       country: "BR"
       locationHistoric:
         - "Freguesia de São Francisco do Porto dos Casais"

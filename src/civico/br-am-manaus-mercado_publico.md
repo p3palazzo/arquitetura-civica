@@ -27,7 +27,7 @@ coverage:
           R. dos Barés, 46 - Centro<br />
           69009-365
       city   : "Manaus"
-      state  : "Amazonas"
+      state  : BR-AM
       country: "BR"
       locationHistoric:
         - "Nossa Senhora da Conceição da Barra do Rio Negro"

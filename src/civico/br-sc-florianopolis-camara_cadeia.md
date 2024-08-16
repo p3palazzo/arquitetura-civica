@@ -30,7 +30,7 @@ coverage:
           R. dos Ilhéus, 194<br />
           88010-560
       city   : "Florianópolis"
-      state  : "Santa Catarina"
+      state  : BR-SC
       country: "BR"
   temporal:
     events:

@@ -25,7 +25,7 @@ coverage:
           R. Cerqueira César, 371<br />
           14010-130
       city   : "Ribeirão Preto"
-      state  : "São Paulo"
+      state  : BR-SP
       country: "BR"
       locationHistoric:
         - "Vila de Entre Rios"

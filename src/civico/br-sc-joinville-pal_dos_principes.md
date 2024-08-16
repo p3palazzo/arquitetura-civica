@@ -25,7 +25,7 @@ coverage:
           R. Rio Branco, 229<br />
           89201-080
       city   : "Joinville"
-      state  : "Santa Catarina"
+      state  : BR-SC
       country: "BR"
       locationHistoric:
         - "Colônia Dona Francisca"

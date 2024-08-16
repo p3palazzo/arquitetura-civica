@@ -27,7 +27,7 @@ coverage:
           Rua Riachuelo, s/n<br />
           96200-030
       city   : "Rio Grande"
-      state  : "Rio Grande do Sul"
+      state  : BR-RS
       country: "BR"
   temporal:
     events:

@@ -23,7 +23,7 @@ coverage:
   spatial:
     location:
       lat : -22.908662 
-      long: 43.175422
+      long: -43.175422
       alt : 8.27
       name:
         type: "corporate"
@@ -31,7 +31,7 @@ coverage:
           Praça da República, s/n<br />
           20211-350
       city   : "Rio de Janeiro"
-      state  : "Rio de Janeiro"
+      state  : BR-RJ
       country: "BR"
       locationHistoric:
         - "Travessa das Belas Artes"

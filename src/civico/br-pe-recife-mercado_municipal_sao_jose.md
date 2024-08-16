@@ -30,7 +30,7 @@ coverage:
           Praça Dom Vital - São José<br />
           50020-280
       city   : "Recife"
-      state  : "Pernambuco"
+      state  : BR-PE
       country: "BR"
       locationHistoric:
         - "Largo da Ribeira do Peixe"

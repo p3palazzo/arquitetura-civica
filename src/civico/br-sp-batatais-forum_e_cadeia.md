@@ -24,7 +24,7 @@ coverage:
           R. Carlos Gomes, 293-399<br />
           14300-000
       city   : "Batatais"
-      state  : "São Paulo"
+      state  : BR-SP
       country: "BR"
       locationHistoric:
         - "Senhor Bom Jesus"

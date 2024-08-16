@@ -22,7 +22,7 @@ coverage:
           R. Dr. Inácio Dias, 1274-1370<br />
           63430-000
       city   : "Icó"
-      state  : "Ceará"
+      state  : BR-CE
       country: "BR"
       locationHistoric:
         - "Ribeira dos Icós"

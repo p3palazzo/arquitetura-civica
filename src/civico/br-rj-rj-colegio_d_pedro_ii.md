@@ -31,7 +31,7 @@ coverage:
           Campus Centro - Av. Mal. Floriano, 80<br />
           20080-001
       city   : "Rio de Janeiro"
-      state  : "Rio de Janeiro"
+      state  : BR-RJ
       country: "BR"
   temporal:
     events:

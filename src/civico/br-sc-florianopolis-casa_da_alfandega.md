@@ -35,7 +35,7 @@ coverage:
           Largo da Alfândega<br />
           88010-400
       city   : "Florianópolis"
-      state  : "Santa Catarina"
+      state  : BR-SC
       country: "BR"
       locationHistoric:
         - "Porto dos Patos"

@@ -34,7 +34,7 @@ coverage:
           Quinta da Boa Vista, São Cristóvão<br />
           20940-040
       city   : "Rio de Janeiro"
-      state  : "Rio de Janeiro"
+      state  : BR-RJ
       country: "BR"
   temporal:
     events:

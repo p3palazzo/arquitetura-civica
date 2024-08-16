@@ -4,16 +4,18 @@ layout: "layouts/archive.njk"
 excerpt: >
   Todas as edificações cadastradas neste projeto de pesquisa.
 header:
-  teaser        : "/assets/media/an-teaser.jpg"
-  overlay_image : "/assets/media/an-overlay.jpg"
-  overlay_filter: 0.7
-  caption       : "Antiga sede do Arquivo Nacional à praça da República, 1905"
+  actions:
+    - href: '/mapa/'
+      label: "Ver no mapa"
+      btn_class: "btn-outline-primary btn-lg px-5 py-3 w-25 mt-5"
 pagination:
   data: collections.civico
   reverse: true
-  size: 24
+  size: 20
   alias: posts
 templateEngineOverride: njk
 eleventyExcludeFromCollections: true
 ---
+
+<p class="text-center fs-1">{{ collections.civico | length }} construções cadastradas.</p>
 

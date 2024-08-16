@@ -3,6 +3,8 @@ main:
     url   : "https://tradicional.arq.br"
   - title : "Equipe"
     url   : "/equipe/"
+  - title : "Lista de obras"
+    url   : "/civico/"
   - title : >
       <i class="bi bi-github" aria-hidden="true"></i>
       Dados abertos e como contribuir
@@ -16,9 +18,9 @@ especiais:
     url       : /monumentalidade/
     btn_class : "btn-outline-primary"
   - image_path: "https://placehold.co/210x210/png"
-    title     : "Neocolonial"
-    excerpt   : "Transposição de motivos religiosos para a arquitetura cívica neocolonial"
-    url       : /neocolonial/
+    title     : "Cronologia"
+    excerpt   : "Linha do tempo da arquitetura cívica"
+    url       : /cronologia/
     btn_class : "btn-outline-primary"
   - image_path: "https://placehold.co/210x210/png"
     title     : "Projetos ideais"

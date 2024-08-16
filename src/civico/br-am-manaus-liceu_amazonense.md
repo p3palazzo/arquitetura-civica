@@ -27,7 +27,7 @@ coverage:
           Av. Sete de Setembro, s/n<br />
           69010-220
       city   : "Manaus"
-      state  : "Amazonas"
+      state  : BR-AM
       country: "BR"
       locationHistoric:
         - "Nossa Senhora da Conceição da Barra do Rio Negro"

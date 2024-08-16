@@ -22,7 +22,7 @@ coverage:
           Praça Tiradentes, 139<br />
           35400-000
       city   : "Ouro Preto"
-      state  : "Minas Gerais"
+      state  : BR-MG
       country: "BR"
       locationHistoric:
         - "Vila Rica"

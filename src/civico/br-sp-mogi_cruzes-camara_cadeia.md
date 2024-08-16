@@ -24,7 +24,7 @@ coverage:
           R. Cel. Souza Franco, 993<br />
           08710-025
       city   : "Mogi das Cruzes"
-      state  : "São Paulo"
+      state  : BR-SP
       country: "BR"
       locationHistoric:
         - "Vila de Sant'Anna de Mogi Mirim"

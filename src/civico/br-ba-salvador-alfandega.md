@@ -30,7 +30,7 @@ coverage:
           Praça Visconde de Cairu, n.º 250, Comércio<br />
           40015-170
       city   : "Salvador"
-      state  : "Bahia"
+      state  : BR-BA
       country: "BR"
   temporal:
     events:
